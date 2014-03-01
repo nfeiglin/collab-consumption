@@ -1,0 +1,365 @@
+/*!
+ Custom styles for Open Source Collaborative Consumption Marketplace. Nathan Feiglin 2013.
+ http://twitter.com/nfeiglin
+ */
+
+@charset "UTF-8";
+
+::selection{
+    background: rgba(93, 255, 207, 0.69);
+}
+
+
+::-moz-selection {
+    background: rgba(93, 255, 207, 0.69);
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.feature {
+    margin: 0 0 0 0;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+
+}
+
+.darker {
+    /* background-color: #535454; */
+    background-color: #2b2b2b;
+}
+
+.lighter {
+    background-color: #ecf0f1 !important;
+}
+
+.text-feature-light {
+    color: #f4f4f4 !important;
+}
+
+.text-feature-dark {
+    color: #535454 !important;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.black {
+    color: #000000 !important;
+}
+.lighter-green {
+    color: #31ac67 !important;
+}
+
+.outback-green {
+    color: #008d38 !important;
+}
+
+.lighter-blue {
+    color: #73b2db !important;
+}
+
+.darker-blue {
+    color: #5ba6dc !important;
+}
+
+.blood-orange {
+    color: #d34a40 !important;
+}
+.cool-carrot {
+    color: #ed9c54 !important;
+}
+
+h1 .cool-carrot {
+    color: #ed9c54;
+}
+.summer-berry {
+    color: #eb5e9d !important;
+
+}
+
+
+@media (min-width: 768px) {
+	/* Bump up size of carousel content */
+	.carousel-caption p {
+		margin-bottom: 20px;
+		font-size: 21px;
+		line-height: 1.4;
+	}
+
+}
+
+#brand-logo {
+    max-height:100%;
+    max-width:100%;
+    height: 35px;
+    width: auto;
+}
+
+
+.small-jumbo {
+    background-color: black;
+    background-size: cover;
+
+    margin: 0 0 0 0;
+
+}
+label {
+ font-weight: normal;
+}
+
+.color-green {
+    color: #31ac67;
+}
+
+label.col-lg-1 {
+ width: 0; 
+}
+
+#hero-unit {
+
+	padding: 150px 0 150px;
+		margin-bottom: 0;
+		color: #fff;
+		background-color: black;
+}
+
+
+body {
+    overflow-x: hidden;
+    padding-top: 90px;
+}
+
+#hero-unit.jumbotron {
+ line-height: 1.143;
+
+	background-size: cover;
+	
+	background-repeat:no-repeat;
+	background-color: black;
+
+	}
+
+.jumbotron {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+#abs.jumbotron {
+	position: absolute; 
+}
+.abs {
+    position: absolute;
+}
+.abs.jumbotron {
+    position: absolute;
+}
+
+	.masthead {
+	padding: 100px 0 150px;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+
+.modal-backdrop.fade.in {
+
+opacity: 0.50;
+filter: alpha(opacity=50);
+
+}
+
+.center-x{ text-align:center;}
+
+.center-y{vertical-align:middle;}
+
+#info-multi-listings {
+
+	width: 50%;
+	text-align:center;
+}
+
+#key-info-table .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: rgba(66,139,202,0.25);
+}
+
+.listing-results
+{
+		list-style-type: none;
+}
+
+.like-box {
+    width: 100% !important;
+}
+.ios7 {
+
+color: #ffffff;
+background: #e74c3c; /* Old browsers */
+background: -moz-linear-gradient(45deg, #e74c3c 0%, #9b59b6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#e74c3c), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #e74c3c 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #e74c3c 0%,#9b59b6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #e74c3c 0%,#9b59b6 100%); /* IE10+ */
+background: linear-gradient(45deg, #e74c3c 0%,#9b59b6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e74c3c', endColorstr='#9b59b6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.panel {
+    margin-bottom: 0;
+    border: 0 solid transparent;
+    padding-bottom: 0;
+}
+
+.panel-body {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-top: 15px;
+}
+
+
+
+ul > li {
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+.right-text {
+text-align: right;
+margin-top: -22px;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 5px; 
+
+}
+
+@media (min-width: 768px) {
+
+.listing-image {
+
+	padding-right: 15px;
+
+}
+
+	.right-text {
+text-align:0;
+text-align:0;
+margin-top:0;
+padding-top:0;
+padding-left:0;
+padding-right:0; 
+
+}
+
+	}
+
+.img-left {
+
+	text-align: left;
+}
+
+
+
+.listing-image {
+
+	padding-right: 25px;
+
+}
+
+.listing-column {
+
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+
+}
+
+.thumbnail {
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input {
+
+	padding-right: 200px;
+	margin-right: 100px;
+	padding-left: 5px;
+	margin-left: 10px;
+}
+
+.listed-by {
+
+	font-size: 15px;
+	font-weight: 600;
+	text-align: top;
+}
+
+.color-grey {
+    color: #D1D1D1;
+}
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.inset-shadow {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+
+}
