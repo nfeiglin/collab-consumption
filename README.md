@@ -12,5 +12,7 @@ Laravel 4.0 based collaborative consumption platform designed to be a starting p
 7. Modify to your liking.
 8. Tell us about your project based on CCMPP by opening an issue here on Github.
 
+*All pull requests are welcome*
+
 ###Dontations
 Feel free to tip the founder of the project with Dogecoin at ```DJEcwpELiJ1ypNwggmn4FCYigsiyViQwBg``` if you found this useful.
