@@ -1,5 +1,7 @@
 #The Collaborative Consumption Marketplace Platform  Project (CCMPP)
 
+**The migrations are currently not working. They will be fixed soon!**
+
 Laravel 4.0 based collaborative consumption platform designed to be a starting place for those wanting to create a collaborative consumption website. More info soon.
 
 ##How to set up
