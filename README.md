@@ -4,7 +4,9 @@
 
 Laravel 4.0 based collaborative consumption platform designed to be a starting place for those wanting to create a collaborative consumption website. More info soon.
 
-##How to set up
+####See a working demo at [http://worldburrow.com/staging](http://worldburrow.com/staging)
+
+##Configuration
 1. Clone or download this repo onto your computer.
 2. Run ```composer install``` in your command line. You must have Composer on your machine for this to work.
 3. Fill in your database and email configurations in ```app/config/database.php``` and ```app/config/mail.php```
