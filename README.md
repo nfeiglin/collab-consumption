@@ -2,7 +2,13 @@
 
 **The migrations are currently not working. They will be fixed soon!**
 
-Laravel 4.0 based collaborative consumption platform designed to be a starting place for those wanting to create a collaborative consumption website. More info soon.
+Laravel 4.0 based collaborative consumption platform designed to be a starting place for those wanting to create a collaborative consumption website.
+
+###CCCMP:
+- is currently similiar to an Airbnb-type site for office space
+- does not have any inbuilt payment functionality
+- does not have an automated booking system. There is a booking request form that emails the site owner the details for them to follow up
+
 
 ####See a working demo at [http://worldburrow.com/staging](http://worldburrow.com/staging)
 
@@ -17,6 +23,3 @@ Laravel 4.0 based collaborative consumption platform designed to be a starting p
 8. Tell us about your project based on CCMPP by opening an issue here on Github.
 
 *All pull requests are welcome*
-
-###Dontations
-Feel free to tip the founder of the project with Dogecoin at ```DJEcwpELiJ1ypNwggmn4FCYigsiyViQwBg``` if you found this useful.
